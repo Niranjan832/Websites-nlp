@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from openpyxl import load_workbook
 
 # Define paths using os.path.join for cross-platform compatibility
-base_path = r"C:\Users\niranjan2002\Downloads"
+base_path = r"Path"
 input_path = os.path.join(base_path, "Output Data Structure.xlsx")
 output_path = input_path
 stopwords_path = os.path.join(base_path, "StopWords")
