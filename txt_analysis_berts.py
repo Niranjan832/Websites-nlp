@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 from typing import List, Tuple
 
 # Define paths using os.path.join for cross-platform compatibility
-base_path = r"C:\Users\niranjan2002\Downloads"
+base_path = r"path"
 input_path = os.path.join(base_path, "Output Data Structure.xlsx")
 output_path = input_path
 
